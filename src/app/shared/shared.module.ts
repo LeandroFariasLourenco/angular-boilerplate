@@ -1,7 +1,7 @@
-import { CommonModule } from "@angular/common";
-import { NgModule } from "@angular/core";
-import { FormsModule, ReactiveFormsModule } from "@angular/forms";
-import { ConsoleLogPipe } from "./pipes/console-log.pipe";
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ConsoleLogPipe } from './pipes/console-log.pipe';
 
 const modules = [
   ReactiveFormsModule,
@@ -11,7 +11,7 @@ const modules = [
 
 const declarations = [
   ConsoleLogPipe
-]
+];
 
 @NgModule({
   declarations,
